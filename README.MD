@@ -5,7 +5,7 @@ E um jogo de coletar maçãs
 ## Recursos de acessibilidade
 - Atributos aria:atributo da função define qual é o modelo de objeto.
 - alt:texto para deficientes visuais.
-- tab-index:uso da tecla tab oara navegar pelo site.
+- tab-index:uso da tecla tab para navegar pelo site.
  - Menu de acessibilidade: Um menu para dar zoom e diminuir o site e mudar a cor para melhor vizualização caso necessário.
  ## Tecnologias utilizadas
 - HTML
