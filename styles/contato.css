@@ -1,0 +1,75 @@
+.contato-interativo {
+  background: linear-gradient(to right, #e3f2e1, #f0f7ff);
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container-contato {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.personagem {
+  flex: 1 1 250px;
+  text-align: center;
+  position: relative;
+}
+
+.personagem img {
+  width: 180px;
+  height: auto;
+}
+
+.fala {
+  background-color: #fff8dc;
+  border: 2px solid #a3a3a3;
+  border-radius: 12px;
+  padding: 12px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  font-size: 14px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.formulario-contato {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.formulario-contato textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.formulario-contato button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.formulario-contato button:hover {
+  background-color: #45a049;
+}

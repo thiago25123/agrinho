@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sementes do Horizonte Urbano</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a class="skip-to-content" href="#content" tabindex="0" aria-label="Pula para o conteúdo do site quando clicado">Pular para o conteúdo</a>
+  <input type="checkbox" id="altocontraste" class="visually-hidden">
+  <input type="checkbox" id="fonte-aumentar" class="visually-hidden">
+  <input type="checkbox" id="fonte-diminuir" class="visually-hidden">
+
+  <div class="acessibilidade">
+    <label for="altocontraste" aria-label="muda a cor do site quando clicado">Alto Contraste</label>
+    <label for="fonte-aumentar" aria-label="aumenta a fonte quando clicado">A+</label>
+    <label for="fonte-diminuir" aria-label="dimínui a fonte quando clicado">A-</label>
+  </div>
+  <main class="site">
+    <div id="content"></div>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container_botao">
+            <label for="menu" class="container_rotulo" tabindex="0" aria-expanded="false" aria-label="abre o menu de Categorias quando clicado"></imput>
+            <span class="cabecalho_menu-hamburguer container_imagem"></span>
+            </label>
+            <ul class="lista-menu" class="opcoes_rotulo">
+                <li class="lista-menu_titulo">Categorias</li>
+                <li class="lista-menu_item"><a href="tecnologia e sustentabilidade.html" class="lista-menu_link" tabindex="0">Tecnologia e sustentabilidade</a></li>
+                <li class="lista-menu_item"><a href="história.html" class="lista-menu_link" tabindex="0">Histórias</a></li>
+                <li class="lista-menu_item"><a href="festas.html" class="lista-menu_link" tabindex="0">Festas</a></li>
+                <li class="lista-menu_item"><a href="costumes.html" class="lista-menu_link" tabindex="0">Costumes</a></li>
+                <li class="lista-menu_item"><a href="culinaria.html" class="lista-menu_link" tabindex="0">Culínaria</a></li>
+            </ul>
+            <img src="img/logo.png" alt="Logo sementes do horizonte-urbano" title="imagem editada por mim, Canva." class="container_imagem" aria-label="Logo do site sementes do horizonte-urbano">
+            <h1 class="container_titulo"><b class="container_titulo-negrito">Sementes</b>horizonte-urbano</h1>
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes_botao">
+            <label for="opcoes-menu" class="opcoes_rotulo" aria-expanded="false">
+                <li class="opcoes_item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu_item"><a href="tecnologia e sustentabilidade.html" class="lista-menu_link" tabindex="0">Tecnologia e sustentabilidade</a></li>
+                <li class="lista-menu_item"><a href="história.html" class="lista-menu_link" tabindex="0">Histórias</a></li>
+                <li class="lista-menu_item"><a href="festas.html" class="lista-menu_link" tabindex="0">Festas</a></li>
+                <li class="lista-menu_item"><a href="costumes.html" class="lista-menu_link" tabindex="0">Costumes</a></li>
+                <li class="lista-menu_item"><a href="culinaria.html" class="lista-menu_link" tabindex="0">Culinária</a></li>
+            </ul>
+            <li class="opcoes_item"><a href="favoritos.html" class="opcoes_link" tabindex="0">favoritos</a></li>
+            <li class="opcoes_item"><a href="minhacestinha.html" class="opcoes_link" tabindex="0">minha cestinha
+            </a></li>
+        </ul>
+
+        <div class="container">
+            <a href="favoritos.html" aria-label="Acessa os favoritos quando clicado"><img src="img/favoritos.png" alt="Aba favoritos" title="Imagem editada por mim, canva." class="container_imagem container_imagem-transparente"></a>
+            <a href="https://scratch.mit.edu/projects/1166567164/" class="container_link">
+                <img src="img/compras.jpeg" alt="Minhas compras" title="Imagem editada por mim Paint" class="container_imagem">
+                <p class="container_texto">Minha cestinha
+                </p>
+            </a>
+            <a href="perfil.html" class="container_link" tabindex="0" aria-label="acessa o perfil quando clicado">
+                <img src="img/perfil.png" alt="Meu perfil" title="Imagem editada por mim, canva." class="container_imagem">
+                <p class="container_texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner_titulo">Está pronto para uma incrível viagem de conexões?</h2>
+        <p class="banner_texto">Escolha uma Categoria e desbrave em busca de conhecimento!</p>
+        <input type="search" class="banner_pesquisa" placeholder="Qual será seu próximo tópico?" tabindex="0" aria-label="Campo de busca de conteúdo">
+    </section>
+
+    <section class="carrossel" tabindex="0 ">
+        <h2 class="carrossel_titulo">O que há de especial!</h2>
+        <div class="carrossel_container">
+            <div class="card">
+                <img src="img/estrada.jpeg" alt="Estrada que conecta os ambientes" title="Foto retirada por mim">
+                <p>Estrada que conecta os ambientes</p>
+            </div>
+            <div class="card">
+                <img src="img/paisagem.jpeg" alt="Paisagem rural e urbana" title="Foto retirada por mim"> 
+                <p>Paisagem rural e urbana</p>
+            </div>
+            <div class="card">
+                <img src="img/cachoeira.jpeg" alt="Festa temática rural" title="Foto retirada por mim">
+                <p>Ponto turístico</p>
+            </div>
+            <div class="card">
+                <img src="img/balão.jpeg" alt="Tecnologia no campo" title="Foto retirada por mim">
+                <p>Passeio de balão Uma forma de festejar a conexão entre campo e cdade.</p>
+            </div>
+        </div>
+    </section>
+    <div class="card">
+      <div class="card_descricao">
+        <div class="descricao">
+          <h3 class="descricao_titulo">Você gosta de quizz?</h3>
+          <h2 class="descricao_titulo-quizz">Se a resposta for sim este é o lugar certo para você!</h2>
+          <p class="descricao_texto">Teste para saber : gosta mais do campo ou cidade?</p>
+        </div>
+      </div>
+  <img src="img/campovscidade.jpeg" alt="imagem que representa a divisão entre campo e cidade" title="Foto retirada por mim, editada no google fotos">
+      <div class="card_botoes">
+        <ul class="botoes">
+        </ul>
+ 
+        <a href="quiz.html" class="botoes_ancora" tabindex="0" aria-label="ir para o quiz para saber se gosta mais do campo ou cidade">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="carrossel" tabindex="0">
+    <h2 class="carrossel_titulo">O que merece sua atenção!</h2>
+    <div class="carrossel_container">
+        <div class="card">
+                <img src="img/rua.jpeg" alt="caminhao de alimentos" title="Foto retirada por mim">
+                <p>onde o por do sol descansa </p>
+            </div>  
+        <div class="card">
+            <img src="img/caminhao.jpeg" alt="caminhao de alimentos" title="Foto editada por mim através do paint">
+            <p>Caminhão de alimentos</p>
+        </div>
+        <div class="card">
+            <img src="img/horta.jpeg" alt="horta nas escolas" title="Foto editada por mim através do paint">
+            <p>Horta escolar</p>
+        </div>
+        <div class="card">
+            <img src="img/manifestação cultural.jpeg" alt="manifestação cultural" title="Foto editada por mim através do paint">
+            <p>manifestação cultural da conexão do campo e a cidade</p>
+        </div>
+    </div>
+</section>
+    <section class="topicos">
+        <h2 class="topicos_titulo">Trilhas caminhadas</h2>
+        <ul class="topicos_lista">
+            <li class="topicos_item"><a href="arquitetura.html" class="topicos_link" tabindex="0">Arquitetura sustentável</a></li>
+            <li class="topicos_item"><a href="impactoescolas.html" class="topicos_link" tabindex="0">Como o tema pode impactar escolas</a></li>
+            <li class="topicos_item"><a href="comoocampoajudacidade.html" class="topicos_link" tabindex="0">Como o campo ajuda a cidade</a></li>
+            <li class="topicos_item"><a href="brincadeiras.html" class="topicos_link" tabindex="0">Brincadeiras tradicionais em escolas urbanas</a></li>
+            <li class="topicos_item"><a href="turismo.html" class="topicos_link" tabindex="0">Turismo</a></li>
+            <li class="topicos_item"><a href="riquesas.html" class="topicos_link" tabindex="0">Riquezas</a></li>
+            <li class="topicos_item"><a href="conexao.html" class="topicos_link" tabindex="0">Conexão</a></li>
+        </ul>
+    </section>
+
+    
+    <section class="contato-interativo">
+      <div class="container-contato">
+          <div class="personagem">
+              <img src="img/mascote.png" alt="Mascote Campo e Cidade" />
+              <div class="fala">
+                  <p>Oi! Sou o Bear, vamos cultivar sua ideia?</p>
+              </div>
+          </div>
+  
+          <form class="formulario-contato" action="https://docs.google.com/forms/d/e/1FAIpQLSddqsjhcvx0hb35XGQ_czVBQ8XOZpyjpKXzWujNEUsYITXphA/viewform?embedded=true" method="get" target="_blank">
+              <input type="text" name="nome" placeholder="Seu nome" required tabindex="0" aria-label="digite seu nome" />
+              <input type="email" name="email" placeholder="Seu e-mail" required tabindex="0" aria-label="digite seu e-mail" />
+              <textarea name="mensagem" placeholder="Sua mensagem..." required tabindex="0" aria-label="digite sua mensagem "></textarea>
+              <button type="submit" tabindex="0">Cultive sua ideia</button>
+          </form>
+      </div>
+  </section>
+  <footer class="rodape">
+    <i class="bi bi-github"></i>
+    </div>
+    <p class="my-5 text-center">© Copyright 2025. Produzido Por Thiago Domingos</p>
+    <h2 class="rodape_titulo">#Agrinho </h2>
+    <p>Se você gostou do meu site acesse meu github para acompanhar meu desenvolvimento.</p>
+    <a href="https://github.com/thiago25123?tab=repositories" tabindex="0">github</a>
+    </footer>
+    
+ </body>
+</main>
+</html> 
